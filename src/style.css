@@ -1,7 +1,13 @@
 /* add styles here */
-* {
-  padding: 0;
+html {
   box-sizing: border-box;
+}
+
+body,
+form,
+label,
+input {
+  box-sizing: inherit;
 }
 
 @font-face {
@@ -19,6 +25,7 @@
 }
 
 body {
+  padding: 0;
   font-family: Avenir, sans-serif;
   font-size: 16px;
 }
